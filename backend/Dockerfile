@@ -10,7 +10,7 @@ COPY . /app/
 
 EXPOSE 80
 
-ENV MONGO_DB_USERNAME=root
+ENV MONGO_DB_USERNAME=vamsi
 ENV MONGO_DB_PASSWORD=secret
 
 CMD [ "npm", "start" ]
